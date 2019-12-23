@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Anastasia Shuba</title>
+    <link>http://newport.eecs.uci.edu/~ashuba/project/</link>
+    <description>Recent content in Projects on Anastasia Shuba</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://newport.eecs.uci.edu/~ashuba/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NoMoAds</title>
+      <link>http://newport.eecs.uci.edu/~ashuba/project/nomoads/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://newport.eecs.uci.edu/~ashuba/project/nomoads/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AntMonitor</title>
+      <link>http://newport.eecs.uci.edu/~ashuba/project/antmonitor/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
+      
+      <guid>http://newport.eecs.uci.edu/~ashuba/project/antmonitor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
