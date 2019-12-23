@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Anastasia Shuba</title>
-    <link>http://newport.eecs.uci.edu/~ashuba/home/</link>
+    <link>https://nshuba.github.io/home/</link>
     <description>Recent content in Homes on Anastasia Shuba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://newport.eecs.uci.edu/~ashuba/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nshuba.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://newport.eecs.uci.edu/~ashuba/home/about/</link>
+      <link>https://nshuba.github.io/home/about/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/home/about/</guid>
-      <description>Biography I am a recent Ph.D graduate from the EECS department at UC Irvine, where I worked in the networking lab under the supervision of Prof. Athina Markopoulou. I was the lead developer in the AntMonitor and NoMoAds projects, and I am currently a Sr. Software Engineer at Symantec Corporation.
+      <guid>https://nshuba.github.io/home/about/</guid>
+      <description>Biography I am a recent Ph.D graduate from the EECS department at UC Irvine, where I worked in the networking lab under the supervision of Prof. Athina Markopoulou. I was the lead developer in the AntMonitor and NoMoAds projects, and I am currently an R&amp;amp;D Engineer at Broadcom.
 Download my CV (academia) or my resume (industry)</description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/home/publications/</link>
+      <link>https://nshuba.github.io/home/publications/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/home/publications/</guid>
+      <guid>https://nshuba.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/home/projects/</link>
+      <link>https://nshuba.github.io/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/home/projects/</guid>
+      <guid>https://nshuba.github.io/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/home/contact/</link>
+      <link>https://nshuba.github.io/home/contact/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/home/contact/</guid>
+      <guid>https://nshuba.github.io/home/contact/</guid>
       <description></description>
     </item>
     

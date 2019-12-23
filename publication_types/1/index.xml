@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Anastasia Shuba</title>
-    <link>http://newport.eecs.uci.edu/~ashuba/publication_types/1/</link>
+    <link>https://nshuba.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Anastasia Shuba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://newport.eecs.uci.edu/~ashuba/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nshuba.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NoMoAds: Effective and Efficient Cross-App Mobile Ad-Blocking</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2018_nomoads_pets/</link>
+      <link>https://nshuba.github.io/publication/2018_nomoads_pets/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2018_nomoads_pets/</guid>
+      <guid>https://nshuba.github.io/publication/2018_nomoads_pets/</guid>
       <description></description>
     </item>
     

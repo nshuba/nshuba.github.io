@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine-learning on Anastasia Shuba</title>
-    <link>http://newport.eecs.uci.edu/~ashuba/tags/machine-learning/</link>
+    <link>https://nshuba.github.io/tags/machine-learning/</link>
     <description>Recent content in Machine-learning on Anastasia Shuba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="http://newport.eecs.uci.edu/~ashuba/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nshuba.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NoMoAds</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/project/nomoads/</link>
+      <link>https://nshuba.github.io/project/nomoads/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/project/nomoads/</guid>
+      <guid>https://nshuba.github.io/project/nomoads/</guid>
       <description></description>
     </item>
     

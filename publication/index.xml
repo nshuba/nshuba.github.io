@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Anastasia Shuba</title>
-    <link>http://newport.eecs.uci.edu/~ashuba/publication/</link>
+    <link>https://nshuba.github.io/publication/</link>
     <description>Recent content in Publications on Anastasia Shuba</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="http://newport.eecs.uci.edu/~ashuba/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nshuba.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>NoMoAds: Effective and Efficient Cross-App Mobile Ad-Blocking</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2018_nomoads_pets/</link>
+      <link>https://nshuba.github.io/publication/2018_nomoads_pets/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2018_nomoads_pets/</guid>
+      <guid>https://nshuba.github.io/publication/2018_nomoads_pets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntWall - A System for Mobile Adblocking and Privacy Exposure Prevention</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2018_antwall_mobihoc/</link>
+      <link>https://nshuba.github.io/publication/2018_antwall_mobihoc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2018_antwall_mobihoc/</guid>
+      <guid>https://nshuba.github.io/publication/2018_antwall_mobihoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Leak Classification on Mobile Devices</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2018_antshield_spawc/</link>
+      <link>https://nshuba.github.io/publication/2018_antshield_spawc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2018_antshield_spawc/</guid>
+      <guid>https://nshuba.github.io/publication/2018_antshield_spawc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: A System for Monitoring from Mobile Devices</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_c2bid/</link>
+      <link>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_c2bid/</guid>
+      <guid>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_s3/</link>
+      <link>https://nshuba.github.io/publication/2015_antmonitor_s3/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_s3/</guid>
+      <guid>https://nshuba.github.io/publication/2015_antmonitor_s3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntMonitor - A System for Mobile Traffic Monitoring and Real-Time Prevention of Privacy Leaks</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_mobicom/</link>
+      <link>https://nshuba.github.io/publication/2015_antmonitor_mobicom/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_mobicom/</guid>
+      <guid>https://nshuba.github.io/publication/2015_antmonitor_mobicom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntMonitor - Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
-      <link>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_s3_demo/</link>
+      <link>https://nshuba.github.io/publication/2015_antmonitor_s3_demo/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
       
-      <guid>http://newport.eecs.uci.edu/~ashuba/publication/2015_antmonitor_s3_demo/</guid>
+      <guid>https://nshuba.github.io/publication/2015_antmonitor_s3_demo/</guid>
       <description></description>
     </item>
     
