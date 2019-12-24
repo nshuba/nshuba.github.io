@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="https://nshuba.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NoMoATS: Towards Automatic Detection of Mobile Tracking</title>
+      <link>https://nshuba.github.io/publication/2020_nomoats_pets/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 -0700</pubDate>
+      
+      <guid>https://nshuba.github.io/publication/2020_nomoats_pets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking</title>
+      <link>https://nshuba.github.io/publication/2020_smarttv_pets/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 -0700</pubDate>
+      
+      <guid>https://nshuba.github.io/publication/2020_smarttv_pets/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NoMoAds: Effective and Efficient Cross-App Mobile Ad-Blocking</title>
