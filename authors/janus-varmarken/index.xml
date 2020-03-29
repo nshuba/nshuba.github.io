@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Janus Varmarken | Anastasia Shuba</title>
+    <link>/authors/janus-varmarken/</link>
+      <atom:link href="/authors/janus-varmarken/index.xml" rel="self" type="application/rss+xml" />
+    <description>Janus Varmarken</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Janus Varmarken</title>
+      <link>/authors/janus-varmarken/</link>
+    </image>
+    
+    <item>
+      <title>The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking</title>
+      <link>/publication/2020_smarttv_pets/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/2020_smarttv_pets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AntMonitor: A System for Monitoring from Mobile Devices</title>
+      <link>/publication/2015_antmonitor_c2bid/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_c2bid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AntMonitor: Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
+      <link>/publication/2015_antmonitor_s3/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo: AntMonitor - A System for Mobile Traffic Monitoring and Real-Time Prevention of Privacy Leaks</title>
+      <link>/publication/2015_antmonitor_mobicom/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_mobicom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo: AntMonitor - Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
+      <link>/publication/2015_antmonitor_s3_demo/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_s3_demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Privacy on Anastasia Shuba</title>
-    <link>https://nshuba.github.io/tags/privacy/</link>
-    <description>Recent content in Privacy on Anastasia Shuba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://nshuba.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Privacy | Anastasia Shuba</title>
+    <link>/tags/privacy/</link>
+      <atom:link href="/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <description>Privacy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Privacy</title>
+      <link>/tags/privacy/</link>
+    </image>
     
     <item>
       <title>AntMonitor</title>
-      <link>https://nshuba.github.io/project/antmonitor/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/antmonitor/</guid>
+      <link>/project/antmonitor/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/project/antmonitor/</guid>
       <description></description>
     </item>
     

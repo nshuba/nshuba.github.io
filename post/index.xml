@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Anastasia Shuba</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>Remote Development and Debugging with Visual Studio Code</title>
+      <link>/post/vsc-remote-debugging/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/vsc-remote-debugging/</guid>
+      <description>&lt;p&gt;Due to COVID-19, many of us are now working from home and are away from our dev machines. In my case, I know that I cannot work efficiently through a laggy VNC conneciton. While I could do most things through SSH and command line, debugging can be problematic.&lt;/p&gt;
+&lt;p&gt;A while ago I came across the 
+&lt;a href=&#34;https://code.visualstudio.com/docs/remote/remote-overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code Remote Development&lt;/a&gt;
+ extension pack. This extension is new, so the documentation for it is not perfect, especially when your target machine is a Mac. I had a hard time finding solutions to the multiple problems I faced when setting this up, so I decided to write it up in a blog post.&lt;/p&gt;
+&lt;p&gt;Below are the steps needed for making VSC debugging work for a &lt;strong&gt;C++ project&lt;/strong&gt; when on a &lt;strong&gt;Windows host&lt;/strong&gt; connecting to a &lt;strong&gt;remote Mac&lt;/strong&gt;. This even works when connecting to a &lt;strong&gt;remote VM&lt;/strong&gt;! I imagine only slight modifications will be needed for other scenarios. The instructions assume you already have a C++ project setup for VSC on your remote machine.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-remote-development&#34;&gt;Setting up Remote Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Locally, on your host, install VSC and the 
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;remote development extension&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Open VSC, go to File → Preferences → Settings
+&lt;ul&gt;
+&lt;li&gt;Search for &lt;code&gt;remote.SSH.showLoginTerminal&lt;/code&gt;. Enable this setting.&lt;/li&gt;
+&lt;li&gt;Search for &lt;code&gt;remote.SSH.useLocalServer&lt;/code&gt;. Disable this setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Now, press F1, search for and select the following: &amp;ldquo;Remote-SSH: Connect to Host&amp;hellip;&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;Enter &amp;lt;your_username&amp;gt;@&amp;lt;your_remote_machine_ip&amp;gt;&lt;/li&gt;
+&lt;li&gt;The VSC terminal will prompt for your VM&amp;rsquo;s password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After you enter your password you are connected to your VM and can browse/modify the files there as you would locally! The experience is much smoother than VNC or RDP.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-remote-debugging&#34;&gt;Setting up Remote Debugging&lt;/h2&gt;
+&lt;p&gt;To debug remotely, we will need a few more steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;While connected to your VM, we will need to install the following VSC extensions (this will install them on your VM and not your host):
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++ extension&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CodeLLDB extension&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Turn on developer mode on your remote machine: &lt;code&gt;$ sudo /usr/sbin/DevToolsSecurity --enable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add the following configuration to the &lt;code&gt;.vscode/launch.json&lt;/code&gt; of your project:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;Launch (Remote)&amp;quot;,
+  &amp;quot;type&amp;quot;: &amp;quot;lldb&amp;quot;,
+  &amp;quot;request&amp;quot;: &amp;quot;launch&amp;quot;,
+  &amp;quot;program&amp;quot;: &amp;quot;/path/to/your/program&amp;quot; // e.g. ${workspaceFolder}/a.out
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the debugging tab of VSC, select the &amp;ldquo;Launch (Remote)&amp;rdquo; configuration, and F5 to debug!&lt;/li&gt;
+&lt;li&gt;If you need to attach to a process, use the following configuration to &lt;code&gt;.vscode/launch.json&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;Attach (Remote)&amp;quot;,
+  &amp;quot;type&amp;quot;: &amp;quot;lldb&amp;quot;,
+  &amp;quot;request&amp;quot;: &amp;quot;attach&amp;quot;,
+  &amp;quot;program&amp;quot;: &amp;quot;/path/to/your/program&amp;quot;, // e.g. ${workspaceFolder}/a.out
+  &amp;quot;pid&amp;quot;: &amp;quot;${command:pickProcess}&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Using the &amp;ldquo;Attach (Remote)&amp;quot;, after you press F5 a prompt will open where you can search for the process to attach to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hope you found this guide helpful. Happy debugging and stay safe out there!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

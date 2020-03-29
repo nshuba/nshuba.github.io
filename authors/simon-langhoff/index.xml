@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Langhoff | Anastasia Shuba</title>
+    <link>/authors/simon-langhoff/</link>
+      <atom:link href="/authors/simon-langhoff/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simon Langhoff</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Simon Langhoff</title>
+      <link>/authors/simon-langhoff/</link>
+    </image>
+    
+    <item>
+      <title>AntMonitor: A System for Monitoring from Mobile Devices</title>
+      <link>/publication/2015_antmonitor_c2bid/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_c2bid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AntMonitor: Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
+      <link>/publication/2015_antmonitor_s3/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_s3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo: AntMonitor - A System for Mobile Traffic Monitoring and Real-Time Prevention of Privacy Leaks</title>
+      <link>/publication/2015_antmonitor_mobicom/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_mobicom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo: AntMonitor - Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
+      <link>/publication/2015_antmonitor_s3_demo/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/publication/2015_antmonitor_s3_demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

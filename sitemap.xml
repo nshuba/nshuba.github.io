@@ -1,221 +1,183 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2020_nomoats_pets/</loc>
-      <lastmod>2020-07-19T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2020_smarttv_pets/</loc>
-      <lastmod>2020-07-19T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/project/nomoads/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/post/vsc-remote-debugging/</loc>
+    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2018_nomoads_pets/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/project/antmonitor/</loc>
-      <lastmod>2018-06-03T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/anastasia-shuba/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2018_antwall_mobihoc/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/athina-markopoulou/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2018_antshield_spawc/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-08:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/hieu-le/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/janus-varmarken/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2015_antmonitor_s3/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/2020_nomoats_pets/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2015_antmonitor_mobicom/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication/2015_antmonitor_s3_demo/</loc>
-      <lastmod>2015-09-01T00:00:00-07:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/2020_smarttv_pets/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication_types/1/</loc>
-      <lastmod>2020-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/zubair-shafiq/</loc>
+    <lastmod>2020-01-19T00:00:00-08:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication_types/5/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/ad-blocking/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication_types/6/</loc>
-      <lastmod>2018-05-01T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/tags/ad-blocking/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/nomoads/nomoads/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/2018_nomoads_pets/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/tags/machine-learning/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-07-19T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/tags/privacy/</loc>
-      <lastmod>2018-06-03T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/antmonitor/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/project/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/publication_types/</loc>
-      <lastmod>2020-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/5/</loc>
+    <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>https://nshuba.github.io/tags/</loc>
-      <lastmod>2018-07-19T00:00:00-07:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication_types/6/</loc>
+    <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2018_antwall_mobihoc/</loc>
+    <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/evita-bakopoulou/</loc>
+    <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2018_antshield_spawc/</loc>
+    <lastmod>2018-05-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2017-01-01T00:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anh-le/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_antmonitor_c2bid/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_antmonitor_s3/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_antmonitor_mobicom/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2015_antmonitor_s3_demo/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/minas-gjoka/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/simon-langhoff/</loc>
+    <lastmod>2015-09-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
   
 </urlset>

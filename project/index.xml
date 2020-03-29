@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Anastasia Shuba</title>
-    <link>https://nshuba.github.io/project/</link>
-    <description>Recent content in Projects on Anastasia Shuba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://nshuba.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Projects | Anastasia Shuba</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
     
     <item>
       <title>NoMoAds</title>
-      <link>https://nshuba.github.io/project/nomoads/</link>
+      <link>/project/nomoads/nomoads/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/nomoads/</guid>
+      <guid>/project/nomoads/nomoads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor</title>
-      <link>https://nshuba.github.io/project/antmonitor/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/antmonitor/</guid>
+      <link>/project/antmonitor/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/project/antmonitor/</guid>
       <description></description>
     </item>
     

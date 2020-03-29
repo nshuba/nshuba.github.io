@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Anastasia Shuba</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Anastasia Shuba</title>
+      <link>/authors/anastasia-shuba/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/authors/anastasia-shuba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Athina Markopoulou</title>
+      <link>/authors/athina-markopoulou/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/authors/athina-markopoulou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hieu Le</title>
+      <link>/authors/hieu-le/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/authors/hieu-le/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Janus Varmarken</title>
+      <link>/authors/janus-varmarken/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/authors/janus-varmarken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zubair Shafiq</title>
+      <link>/authors/zubair-shafiq/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/authors/zubair-shafiq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evita Bakopoulou</title>
+      <link>/authors/evita-bakopoulou/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
+      <guid>/authors/evita-bakopoulou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anh Le</title>
+      <link>/authors/anh-le/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/authors/anh-le/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minas Gjoka</title>
+      <link>/authors/minas-gjoka/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/authors/minas-gjoka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simon Langhoff</title>
+      <link>/authors/simon-langhoff/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      <guid>/authors/simon-langhoff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a recent Ph.D graduate from the EECS department at UC Irvine, where I worked in the 
+&lt;a href=&#34;https://athinagroup.eng.uci.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;networking lab&lt;/a&gt;
+ under the supervision of 
+&lt;a href=&#34;https://athinagroup.eng.uci.edu/athina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Athina Markopoulou.&lt;/a&gt;
+
+I was the lead developer in the 
+&lt;a href=&#34;http://antmonitor.calit2.uci.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AntMonitor&lt;/a&gt;
+ and 
+&lt;a href=&#34;http://athinagroup.eng.uci.edu/projects/nomoads/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NoMoAds&lt;/a&gt;
+ projects, and I am currently
+an R&amp;amp;D Engineer at 
+&lt;a href=&#34;https://www.broadcom.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Broadcom&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Download &lt;a href=&#34;/files/cv.pdf&#34; target=&#34;_blank&#34;&gt;my CV (academia) &lt;/a&gt; or &lt;a href=&#34;/files/resume.pdf&#34; target=&#34;_blank&#34;&gt;my resume (industry) &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

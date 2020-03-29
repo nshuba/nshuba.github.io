@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ad-blocking on Anastasia Shuba</title>
-    <link>https://nshuba.github.io/tags/ad-blocking/</link>
-    <description>Recent content in Ad-blocking on Anastasia Shuba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://nshuba.github.io/tags/ad-blocking/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>ad-blocking | Anastasia Shuba</title>
+    <link>/tags/ad-blocking/</link>
+      <atom:link href="/tags/ad-blocking/index.xml" rel="self" type="application/rss+xml" />
+    <description>ad-blocking</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 19 Jul 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ad-blocking</title>
+      <link>/tags/ad-blocking/</link>
+    </image>
     
     <item>
       <title>NoMoAds</title>
-      <link>https://nshuba.github.io/project/nomoads/</link>
+      <link>/project/nomoads/nomoads/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/nomoads/</guid>
+      <guid>/project/nomoads/nomoads/</guid>
       <description></description>
     </item>
     

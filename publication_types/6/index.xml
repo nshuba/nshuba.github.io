@@ -1,41 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 on Anastasia Shuba</title>
-    <link>https://nshuba.github.io/publication_types/6/</link>
-    <description>Recent content in 6 on Anastasia Shuba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 -0700</lastBuildDate>
-    
-	<atom:link href="https://nshuba.github.io/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>6 | Anastasia Shuba</title>
+    <link>/publication_types/6/</link>
+      <atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 -0700</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>6</title>
+      <link>/publication_types/6/</link>
+    </image>
     
     <item>
       <title>Privacy Leak Classification on Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2018_antshield_spawc/</link>
+      <link>/publication/2018_antshield_spawc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2018_antshield_spawc/</guid>
+      <guid>/publication/2018_antshield_spawc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: A System for Monitoring from Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</link>
+      <link>/publication/2015_antmonitor_c2bid/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</guid>
+      <guid>/publication/2015_antmonitor_c2bid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_s3/</link>
+      <link>/publication/2015_antmonitor_s3/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_s3/</guid>
+      <guid>/publication/2015_antmonitor_s3/</guid>
       <description></description>
     </item>
     

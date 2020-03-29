@@ -1,111 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anastasia Shuba on Anastasia Shuba</title>
-    <link>https://nshuba.github.io/</link>
-    <description>Recent content in Anastasia Shuba on Anastasia Shuba</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <title>Anastasia Shuba</title>
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anastasia Shuba</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Anastasia Shuba</title>
+      <link>/</link>
+    </image>
+    
+    <item>
+      <title>Remote Development and Debugging with Visual Studio Code</title>
+      <link>/post/vsc-remote-debugging/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/vsc-remote-debugging/</guid>
+      <description>&lt;p&gt;Due to COVID-19, many of us are now working from home and are away from our dev machines. In my case, I know that I cannot work efficiently through a laggy VNC conneciton. While I could do most things through SSH and command line, debugging can be problematic.&lt;/p&gt;
+&lt;p&gt;A while ago I came across the 
+&lt;a href=&#34;https://code.visualstudio.com/docs/remote/remote-overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visual Studio Code Remote Development&lt;/a&gt;
+ extension pack. This extension is new, so the documentation for it is not perfect, especially when your target machine is a Mac. I had a hard time finding solutions to the multiple problems I faced when setting this up, so I decided to write it up in a blog post.&lt;/p&gt;
+&lt;p&gt;Below are the steps needed for making VSC debugging work for a &lt;strong&gt;C++ project&lt;/strong&gt; when on a &lt;strong&gt;Windows host&lt;/strong&gt; connecting to a &lt;strong&gt;remote Mac&lt;/strong&gt;. This even works when connecting to a &lt;strong&gt;remote VM&lt;/strong&gt;! I imagine only slight modifications will be needed for other scenarios. The instructions assume you already have a C++ project setup for VSC on your remote machine.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-remote-development&#34;&gt;Setting up Remote Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Locally, on your host, install VSC and the 
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;remote development extension&lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Open VSC, go to File → Preferences → Settings
+&lt;ul&gt;
+&lt;li&gt;Search for &lt;code&gt;remote.SSH.showLoginTerminal&lt;/code&gt;. Enable this setting.&lt;/li&gt;
+&lt;li&gt;Search for &lt;code&gt;remote.SSH.useLocalServer&lt;/code&gt;. Disable this setting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Now, press F1, search for and select the following: &amp;ldquo;Remote-SSH: Connect to Host&amp;hellip;&amp;rdquo;
+&lt;ul&gt;
+&lt;li&gt;Enter &amp;lt;your_username&amp;gt;@&amp;lt;your_remote_machine_ip&amp;gt;&lt;/li&gt;
+&lt;li&gt;The VSC terminal will prompt for your VM&amp;rsquo;s password&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After you enter your password you are connected to your VM and can browse/modify the files there as you would locally! The experience is much smoother than VNC or RDP.&lt;/p&gt;
+&lt;h2 id=&#34;setting-up-remote-debugging&#34;&gt;Setting up Remote Debugging&lt;/h2&gt;
+&lt;p&gt;To debug remotely, we will need a few more steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;While connected to your VM, we will need to install the following VSC extensions (this will install them on your VM and not your host):
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;C++ extension&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CodeLLDB extension&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Turn on developer mode on your remote machine: &lt;code&gt;$ sudo /usr/sbin/DevToolsSecurity --enable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add the following configuration to the &lt;code&gt;.vscode/launch.json&lt;/code&gt; of your project:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;Launch (Remote)&amp;quot;,
+  &amp;quot;type&amp;quot;: &amp;quot;lldb&amp;quot;,
+  &amp;quot;request&amp;quot;: &amp;quot;launch&amp;quot;,
+  &amp;quot;program&amp;quot;: &amp;quot;/path/to/your/program&amp;quot; // e.g. ${workspaceFolder}/a.out
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to the debugging tab of VSC, select the &amp;ldquo;Launch (Remote)&amp;rdquo; configuration, and F5 to debug!&lt;/li&gt;
+&lt;li&gt;If you need to attach to a process, use the following configuration to &lt;code&gt;.vscode/launch.json&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;{
+  &amp;quot;name&amp;quot;: &amp;quot;Attach (Remote)&amp;quot;,
+  &amp;quot;type&amp;quot;: &amp;quot;lldb&amp;quot;,
+  &amp;quot;request&amp;quot;: &amp;quot;attach&amp;quot;,
+  &amp;quot;program&amp;quot;: &amp;quot;/path/to/your/program&amp;quot;, // e.g. ${workspaceFolder}/a.out
+  &amp;quot;pid&amp;quot;: &amp;quot;${command:pickProcess}&amp;quot;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Using the &amp;ldquo;Attach (Remote)&amp;quot;, after you press F5 a prompt will open where you can search for the process to attach to.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hope you found this guide helpful. Happy debugging and stay safe out there!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>NoMoATS: Towards Automatic Detection of Mobile Tracking</title>
-      <link>https://nshuba.github.io/publication/2020_nomoats_pets/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2020_nomoats_pets/</guid>
+      <link>/publication/2020_nomoats_pets/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/2020_nomoats_pets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking</title>
-      <link>https://nshuba.github.io/publication/2020_smarttv_pets/</link>
-      <pubDate>Sun, 19 Jul 2020 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2020_smarttv_pets/</guid>
+      <link>/publication/2020_smarttv_pets/</link>
+      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <guid>/publication/2020_smarttv_pets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NoMoAds</title>
-      <link>https://nshuba.github.io/project/nomoads/</link>
+      <link>/project/nomoads/nomoads/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/nomoads/</guid>
+      <guid>/project/nomoads/nomoads/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NoMoAds: Effective and Efficient Cross-App Mobile Ad-Blocking</title>
-      <link>https://nshuba.github.io/publication/2018_nomoads_pets/</link>
+      <link>/publication/2018_nomoads_pets/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2018_nomoads_pets/</guid>
+      <guid>/publication/2018_nomoads_pets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor</title>
-      <link>https://nshuba.github.io/project/antmonitor/</link>
-      <pubDate>Sun, 03 Jun 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/project/antmonitor/</guid>
+      <link>/project/antmonitor/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>/project/antmonitor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntWall - A System for Mobile Adblocking and Privacy Exposure Prevention</title>
-      <link>https://nshuba.github.io/publication/2018_antwall_mobihoc/</link>
+      <link>/publication/2018_antwall_mobihoc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2018_antwall_mobihoc/</guid>
+      <guid>/publication/2018_antwall_mobihoc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Leak Classification on Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2018_antshield_spawc/</link>
+      <link>/publication/2018_antshield_spawc/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2018_antshield_spawc/</guid>
+      <guid>/publication/2018_antshield_spawc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: A System for Monitoring from Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</link>
+      <link>/publication/2015_antmonitor_c2bid/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_c2bid/</guid>
+      <guid>/publication/2015_antmonitor_c2bid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AntMonitor: Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_s3/</link>
+      <link>/publication/2015_antmonitor_s3/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_s3/</guid>
+      <guid>/publication/2015_antmonitor_s3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntMonitor - A System for Mobile Traffic Monitoring and Real-Time Prevention of Privacy Leaks</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_mobicom/</link>
+      <link>/publication/2015_antmonitor_mobicom/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_mobicom/</guid>
+      <guid>/publication/2015_antmonitor_mobicom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Demo: AntMonitor - Network Traffic Monitoring and Real-Time Prevention of Privacy Leaks in Mobile Devices</title>
-      <link>https://nshuba.github.io/publication/2015_antmonitor_s3_demo/</link>
+      <link>/publication/2015_antmonitor_s3_demo/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
-      
-      <guid>https://nshuba.github.io/publication/2015_antmonitor_s3_demo/</guid>
+      <guid>/publication/2015_antmonitor_s3_demo/</guid>
       <description></description>
     </item>
     
