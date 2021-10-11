@@ -5,12 +5,20 @@
     <link>/publication_types/1/</link>
       <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Aug 2022 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>1</title>
       <link>/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>OVRSeen: Auditing Network Traffic and Privacy Policies in Oculus VR</title>
+      <link>/publication/2022_oculus_usenix/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
+      <guid>/publication/2022_oculus_usenix/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NoMoATS: Towards Automatic Detection of Mobile Tracking</title>

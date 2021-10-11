@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hieu Le | Anastasia Shuba</title>
-    <link>/authors/hieu-le/</link>
-      <atom:link href="/authors/hieu-le/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hieu Le</description>
+    <title>Janice Tran Ho | Anastasia Shuba</title>
+    <link>/authors/janice-tran-ho/</link>
+      <atom:link href="/authors/janice-tran-ho/index.xml" rel="self" type="application/rss+xml" />
+    <description>Janice Tran Ho</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Aug 2022 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Hieu Le</title>
-      <link>/authors/hieu-le/</link>
+      <title>Janice Tran Ho</title>
+      <link>/authors/janice-tran-ho/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>/publication/2022_oculus_usenix/</link>
       <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
       <guid>/publication/2022_oculus_usenix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking</title>
-      <link>/publication/2020_smarttv_pets/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
-      <guid>/publication/2020_smarttv_pets/</guid>
       <description></description>
     </item>
     

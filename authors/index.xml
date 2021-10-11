@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Aug 2022 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Anastasia Shuba</title>
       <link>/authors/anastasia-shuba/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
       <guid>/authors/anastasia-shuba/</guid>
       <description></description>
     </item>
@@ -23,16 +23,40 @@
     <item>
       <title>Athina Markopoulou</title>
       <link>/authors/athina-markopoulou/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
       <guid>/authors/athina-markopoulou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hao Cui</title>
+      <link>/authors/hao-cui/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
+      <guid>/authors/hao-cui/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hieu Le</title>
       <link>/authors/hieu-le/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
       <guid>/authors/hieu-le/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Janice Tran Ho</title>
+      <link>/authors/janice-tran-ho/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
+      <guid>/authors/janice-tran-ho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rahmadi Trimananda</title>
+      <link>/authors/rahmadi-trimananda/</link>
+      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
+      <guid>/authors/rahmadi-trimananda/</guid>
       <description></description>
     </item>
     
