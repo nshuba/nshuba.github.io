@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 Aug 2022 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 May 2025 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -15,8 +15,32 @@
     <item>
       <title>Anastasia Shuba</title>
       <link>/authors/anastasia-shuba/</link>
-      <pubDate>Fri, 19 Aug 2022 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
       <guid>/authors/anastasia-shuba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konrad Kollnig</title>
+      <link>/authors/konrad-kollnig/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
+      <guid>/authors/konrad-kollnig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shaoor Munir</title>
+      <link>/authors/shaoor-munir/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
+      <guid>/authors/shaoor-munir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zubair Shafiq</title>
+      <link>/authors/zubair-shafiq/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
+      <guid>/authors/zubair-shafiq/</guid>
       <description></description>
     </item>
     
@@ -61,14 +85,6 @@
     </item>
     
     <item>
-      <title>Konrad Kollnig</title>
-      <link>/authors/konrad-kollnig/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 -0700</pubDate>
-      <guid>/authors/konrad-kollnig/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Max Van Kleek</title>
       <link>/authors/max-van-kleek/</link>
       <pubDate>Tue, 19 Jul 2022 00:00:00 -0700</pubDate>
@@ -97,14 +113,6 @@
       <link>/authors/janus-varmarken/</link>
       <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
       <guid>/authors/janus-varmarken/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zubair Shafiq</title>
-      <link>/authors/zubair-shafiq/</link>
-      <pubDate>Sun, 19 Jan 2020 00:00:00 -0800</pubDate>
-      <guid>/authors/zubair-shafiq/</guid>
       <description></description>
     </item>
     
@@ -146,9 +154,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;I am a Senior Privacy Engineer at 
-&lt;a href=&#34;https://duckduckgo.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DuckDuckGo&lt;/a&gt;
- by day and an Independent Researcher by night.
-Currently, I am collaborating with researchers at the University of Oxford and the University of California, Irvine to analyze privacy aspects of various mobile and IoT devices.
+&lt;a href=&#34;https://duckduckgo.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DuckDuckGo&lt;/a&gt;
+ and I sometimes collaborate with academics on privacy research projects.
+If you are interested in a collaboration - please reach out.
 During my Ph.D, I was the lead developer in the 
 &lt;a href=&#34;https://athinagroup.eng.uci.edu/projects/antmonitor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AntMonitor&lt;/a&gt;
  and 

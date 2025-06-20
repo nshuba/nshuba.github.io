@@ -5,12 +5,20 @@
     <link>/authors/zubair-shafiq/</link>
       <atom:link href="/authors/zubair-shafiq/index.xml" rel="self" type="application/rss+xml" />
     <description>Zubair Shafiq</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jan 2020 00:00:00 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 May 2025 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Zubair Shafiq</title>
       <link>/authors/zubair-shafiq/</link>
     </image>
+    
+    <item>
+      <title>Google’s Chrome Antitrust Paradox</title>
+      <link>/publication/2025_google_law/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
+      <guid>/publication/2025_google_law/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The TV is Smart and Full of Trackers: Measuring Smart TV Advertising and Tracking</title>

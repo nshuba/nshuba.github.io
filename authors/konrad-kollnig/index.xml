@@ -5,12 +5,20 @@
     <link>/authors/konrad-kollnig/</link>
       <atom:link href="/authors/konrad-kollnig/index.xml" rel="self" type="application/rss+xml" />
     <description>Konrad Kollnig</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 Jul 2022 00:00:00 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 May 2025 00:00:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Konrad Kollnig</title>
       <link>/authors/konrad-kollnig/</link>
     </image>
+    
+    <item>
+      <title>Google’s Chrome Antitrust Paradox</title>
+      <link>/publication/2025_google_law/</link>
+      <pubDate>Sun, 25 May 2025 00:00:00 -0700</pubDate>
+      <guid>/publication/2025_google_law/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Are iPhones Really Better for Privacy? A Comparative Study of iOS and Android App</title>
